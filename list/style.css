@@ -1,0 +1,147 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-image: url("../images/KakaoTalk_20240513_222421630.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: end;
+    position: fixed;
+}
+
+header > p {
+    width: 128px;
+    height: 29px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: #10131C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    width: 721px;
+    height: 400px
+}
+.board_head{
+    width: 721px;
+    height: 48px;
+    background-color: #45486D;
+    display: flex;
+    align-items: center;
+}
+.board_head > div {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.num{
+    width:10%;
+}
+.title{
+    width: 40%;
+}
+.writer{
+    width: 15%;
+}
+.date{
+    width: 15%;
+}
+.view{
+    width: 10%;
+}
+.sug{
+    width: 10%;
+}
+.board_main{
+    width: 721px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D3DCE9;
+    color: white;
+}
+.board_main > div {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.num{
+    width:10%;
+}
+.title{
+    width: 40%;
+}
+.writer{
+    width: 15%;
+}
+.date{
+    width: 15%;
+}
+.view{
+    width: 10%;
+}
+.sug{
+    width: 10%;
+}
+.title button{
+    background-color: #10131C;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+.title :hover{
+    color: green;
+}
+.title :active{
+    color: yellow;
+}
+#container2 > .page_num{
+    width: 721px;
+    height: 80px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.page_num > button{
+    width: 40px;
+    height: 40px;
+    background-color: #10131C;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.page_num :hover{
+    color: green;
+}
+.page_num :active{
+    color: yellow;
+}
+.page_cre{
+    width: 721px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page_cre button{
+    width: 128px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.page_cre :hover{
+    color: green;
+}
+.page_cre :active{
+    color: yellow;
+}

@@ -1,0 +1,132 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-image: url("../images/KakaoTalk_20240513_222421630.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-content: end;
+    position: fixed;
+}
+
+header > p {
+    width: 128px;
+    height: 29px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: #10131C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 600px;
+    height: 415px;
+    background-color: #10131C;
+    border: 3px solid #4F5770;
+    border-radius: 16px;
+}
+.subject{
+    width: 600px;
+    height: 120px;
+    border-bottom: 2px solid #4F5770;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.box1{
+    width: 154px;
+    height: 36px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box2{
+    width: 130px;
+    height: 17px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.letter{
+    width: 600px;
+    height: 224px;
+    border-bottom: 1px solid #4F5770;
+    padding: 8px;
+    box-sizing: border-box;
+    white-space: pre;
+}
+.word{
+    display: flex;
+    width: 600px;
+    height: 80px;
+    padding-top: 16px;
+    padding-right: 8px;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 16px;
+    box-sizing: border-box;
+}
+.word1{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #3254CE;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.word1 > button{
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #3254CE;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.word1 :hover{
+    color: black;
+}
+.word1 :active{
+    color: green;
+}
+.word2{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #3254CE;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.word2 > button{
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #3254CE;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.word2 :hover{
+    color: black;
+}
+.word2 :active{
+    color: green;
+}
